@@ -18,7 +18,7 @@ import com.backend.crud.dto.userValidationDTOPost;
 import com.backend.crud.dto.userValidationDTOPut;
 
 
-@CrossOrigin(origins = "https://front-crud-rho.vercel.app/", methods = { RequestMethod.GET, RequestMethod.POST, RequestMethod.DELETE,
+@CrossOrigin(origins = "http://localhost:4200", methods = { RequestMethod.GET, RequestMethod.POST, RequestMethod.DELETE,
         RequestMethod.PUT })
 
 @RestController
